@@ -46,10 +46,7 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-<<<<<<< HEAD
  
-=======
->>>>>>> create-article-model
   gem 'rspec-rails', '~> 5.0.0'
 end
 

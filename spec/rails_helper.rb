@@ -36,14 +36,11 @@ end
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   # config.fixture_path = "#{::Rails.root}/spec/fixtures"
-<<<<<<< HEAD
   # config.factory_bot.definition_file_paths = ["custom/factories"] probably use this line its from docs
-  config.include FactoryBot::Syntax::Methods
-=======
-  config.factory_bot.definition_file_paths = ["custom/factories"] #probably use this line its from docs
+ 
+  #config.factory_bot.definition_file_paths = ["custom/factories"] #probably use this line its from docs
   # this was from tutorial
   config.include FactoryBot::Syntax::Methods  
->>>>>>> create-article-model
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
