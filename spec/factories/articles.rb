@@ -5,3 +5,5 @@ FactoryBot.define do
     slug { "sample-article" }
   end
 end
+
+
