@@ -1,9 +1,9 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :article do
-    title { "Sample Article" }
-    content { "Sample Content" }
-    slug { "sample-article" }
+    sequence(:title) { |n| "Sample article #{n}" }
+    content { 'Sample content' }
+    sequence(:slug) { |n| "sample-article-#{n}" }
   end
 end
-
-
